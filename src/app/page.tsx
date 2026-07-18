@@ -1,4 +1,4 @@
-import { About, Contacts, Experiences, Me, Projects } from '@components';
+import { About, Contacts, Me, Projects } from '@components';
 import { PERSONAL_DETAILS } from '@constants';
 import { breakpoints } from '@stylex/breakpoints.stylex.ts';
 import { miscs } from '@stylex/miscs.stylex.ts';
@@ -70,7 +70,6 @@ export default (): JSX.Element => {
         <Contacts style={styles.contacts} />
         <Me style={styles.me} />
       </section>
-      <Experiences />
       <Projects />
     </main>
   );
